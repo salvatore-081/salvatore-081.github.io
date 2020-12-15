@@ -1,0 +1,138 @@
+{
+    "fullName": "Salvatore Emilio",
+    "bio": "Sono un Developer Full Stack. Faccio della mia passione il mio lavoro! Di seguito troverete le mie info ed alcuni dei miei progetti.",
+    "terminal": {
+        "cv": {
+            "title": "SalvatoreEmilioCV.pdf",
+            "content": "tbd"
+        },
+        "links": [
+            {
+                "title": "(+39) 347 3413737",
+                "content": "tel:+393473413737"
+            },
+            {
+                "title": "salvatore.e@outlook.it",
+                "content": "mailto:salvatore.e@outlook.it"
+            },
+            {
+                "title": "GitHub",
+                "content": "https://github.com/salvatore-081"
+            },
+            {
+                "title": "LinkedIn",
+                "content": "https://www.linkedin.com/in/salvatore-emilio"
+            }
+        ],
+        "static": [
+            {
+                "title": "> Salvatore.localitàAttuale",
+                "content": "\"Napoli (IT)\""
+            },
+            {
+                "title": "> Salvatore.interessi",
+                "content": "[\"tecnologia\", \"natura\", \"cucina\", \"videgiochi\"]"
+            },
+            {
+                "title": "> Salvatore.skills",
+                "content": "[\"Angular\", \"React\", \"Node.js\", \"Go\", \"Python\", \"Java\", \"GraphQL\", \"REST API\", \"Git\"]"
+            }
+        ]
+    },
+    "projects": [
+        {
+            "title": "fullstackopen",
+            "img": "assets/images/fullstackopen-img.png",
+            "description": "Attualmente con il corso offerto dall'università di Helsinki Full stack open 2020 sto migliorando la mia figura come fullstack developer attraverso lo studio di React, Redux, Node.js, MongoDB, GraphQL e TypeScript.",
+            "tags": [
+                "React",
+                "Redux",
+                "Node.js",
+                "MongoDB",
+                "GraphQL",
+                "TypeScript"
+            ],
+            "links": [
+                {
+                    "title": "GitHub",
+                    "content": "https://github.com/salvatore-081/fullstackopen"
+                }
+            ]
+        },
+        {
+            "title": "Virtual Piano",
+            "img": "assets/images/virtual-piano-img.png",
+            "description": "Virtual Piano nasce come conseguenza al corso come FrontEnd Developer offerto da Hyperskill. I tasti del pianoforte utilizzano l'elemento HTML a cui viene associato in JavaScript un EventListener per riprodurne la nota corrispondente",
+            "tags": [
+                "JavaScript",
+                "HTML5",
+                "CSS3"
+            ],
+            "links": [
+                {
+                    "title": "GitHub",
+                    "content": "https://github.com/salvatore-081/salvatore-081.github.io/tree/master/Projects/virtual-piano"
+                },
+                {
+                    "title": "Demo",
+                    "content": "assets/projects/virtual-piano/index.html"
+                }
+            ]
+        },
+        {
+            "title": "Il mio sito personale",
+            "img": "assets/images/my-website-img.png",
+            "description": "Ho sviluppato questo sito web in HTML5 e CSS3 con l'ausilio dello JavaScript per alcune semplici animazioni. Ho seguito le linee guide del Responsive Design per permettere una corretta fruizione su tutti i dispositivi.",
+            "tags": [
+                "JavaScript",
+                "HTML5",
+                "CSS3"
+            ],
+            "links": [
+                {
+                    "title": "GitHub",
+                    "content": ""
+                }
+            ]
+        },
+        {
+            "title": "Random Quote",
+            "img": "assets/images/random-quote-img.png",
+            "description": "Random Quote è un semplice applicativo che restituisce a schermo una citazione casuale selezionata in modo random da un pool precaricato.",
+            "tags": [
+                "JavaScript",
+                "HTML5",
+                "CSS3"
+            ],
+            "links": [
+                {
+                    "title": "GitHub",
+                    "content": ""
+                },
+                {
+                    "title": "Demo",
+                    "content": "assets/projects/random-quote/index.html"
+                }
+            ]
+        }
+    ],
+    "contacts": [
+        {
+            "title": "(+39) 347 3413737",
+            "content": "(+39) 347 3413737"
+        },
+        {
+            "title": "salvatore.e@outlook.it",
+            "content": "salvatore.e@outlook.it"
+        },
+        {
+            "title": "GitHub",
+            "content": "https://github.com/salvatore-081"
+        },
+        {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/salvatore-emilio"
+        }
+    ],
+    "copyright": "Sviluppato da Salvatore Emilio © 2020"
+}
