@@ -82,16 +82,16 @@
         {
             "title": "Il mio sito personale",
             "img": "assets/images/my-website-img.png",
-            "description": "Ho sviluppato questo sito web in HTML5 e CSS3 con l'ausilio dello JavaScript per alcune semplici animazioni. Ho seguito le linee guide del Responsive Design per permettere una corretta fruizione su tutti i dispositivi.",
+            "description": "Ho sviluppato questo sito web con Ionic. Ho seguito le linee guide del Responsive Design per permettere una corretta fruizione su tutti i dispositivi.",
             "tags": [
-                "JavaScript",
-                "HTML5",
+                "TypeScript",
+                "Ionic",
                 "CSS3"
             ],
             "links": [
                 {
                     "title": "GitHub",
-                    "content": ""
+                    "content": "https://github.com/salvatore-081/salvatore-081.github.io/tree/master"
                 }
             ]
         },
