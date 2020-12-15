@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    font-family: helvetica, arial, sans-serif;
+    background-color: rgb(185, 190, 202);
+    font-size: 24px;
+}
+
+div {
+    background-color: whitesmoke;
+    border-radius: 5px 5px 5px 5px;
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    width: 60%; 
+}
+
+h1 {
+    background-color: rgb(188, 236, 220);
+    font-size: 36px;
+    color: rgb(45, 45, 78);
+    border: darkolivegreen;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 4px 4px;
+    width: 60%;
+    margin: auto;
+}
+
+.generateButton {
+    background-color:rgb(188, 236, 220);
+    color: rgb(45, 45, 78);
+    padding: 15px 32px;
+    font-weight: bold;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 3px 3px;
+}
+
+.quoteIcon {
+width: 35px;
+height: auto;
+}

@@ -1,20 +1,32 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div class="mainContainer">
+    <app-header></app-header>
+    <div class="fullNameContainer" >
+      <p class="fullNameContent">{{nameToDisplay}}</p>
+    </div>
+    <div class="bioContainer">
+      <p>{{bio}}</p>
+    </div>
+    <app-terminal></app-terminal>
+    <div id="projectsContainer" class="projectsContainer">
+      <p class="topic">Progetti</p>
+      <app-project *ngFor="let project of projects" 
+        [title]="project.title" 
+        [img]="project.img" 
+        [description]="project.description" 
+        [tags]="project.tags" 
+        [links]="project.links">
+      </app-project>
+    </div>
+    <div class="contactsContainer" id="contactsContainer">
+      <p class="topic">Contatti</p>
+      <div>
+        <span *ngFor="let contactLink of contactsLinks; let i = index">
+          <a class="animated-link" href={{contactLink.content}}>{{contactLink.title}}</a>
+          <span *ngIf="i < 3">||</span>
+        </span>
+      </div>
+    </div>
   </div>
+  <footer>{{copyright}}</footer>  
 </ion-content>

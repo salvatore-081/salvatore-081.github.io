@@ -1,0 +1,12 @@
+ion-header {
+  margin: 0px auto 0px auto;
+  text-align: right;
+}
+
+ion-header::after {
+  background-image: none;
+}
+
+.header {
+  --background: #fbfbfb;
+}

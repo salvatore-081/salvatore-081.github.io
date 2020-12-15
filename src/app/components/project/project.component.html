@@ -1,0 +1,14 @@
+<div class="projectContainer">
+    <div class="projectImg" 
+        [ngStyle]="{'background-image': 'linear-gradient(to right,rgba(240, 240, 240, 0) 0%,rgba(255, 255, 255, 1) 90%),url('+ img+')'}" ></div>
+    <div class="projectText">
+        <div class="projectTitle"><p>{{title}}</p></div>
+        <div class="projectDescription">{{description}}</div>
+        <div class="projectTags">
+            <p *ngFor="let tag of tags" class="skill">{{tag}}</p>
+        </div>
+        <div class="projectLinks">
+            <a *ngFor="let link of links" class="projectLink"  target="_blank" href={{link.content}}>{{link.title}}</a>
+        </div>
+    </div>
+</div>

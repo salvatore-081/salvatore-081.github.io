@@ -1,0 +1,22 @@
+<div class="terminalContainer">
+    <div class="terminalHeader">
+        <div class="greenDot"></div>
+        <div class="yellowDot"></div>
+        <div class="redDot"></div>
+    </div>
+    <p class="whiteText">> Salvatore.contatti</p>
+    <p class="orangeText">[
+        "<a class="linkText" href={{this.terminalLinks[0].content}}>{{this.terminalLinks[0].title}}</a>",
+        "<a class="linkText" href={{this.terminalLinks[1].content}}>{{this.terminalLinks[1].title}}</a>", 
+        "<a class="linkText" href={{this.terminalLinks[2].content}}>{{this.terminalLinks[2].title}}</a>", 
+        "<a class="linkText" href={{this.terminalLinks[3].content}}>{{this.terminalLinks[3].title}}</a>"]
+    </p>
+    <p class="whiteText">> Salvatore.curriculum</p>
+    <p class="orangeText">"<a class="linkText" href={{this.terminalCV.content}}>{{this.terminalCV.title}}</a>"</p>
+    <div *ngFor="let item of terminalStatic">
+        <p class="whiteText">{{item.title}}</p>
+        <p class="orangeText">{{item.content}}</p>
+    </div>
+    <p class="terminalLastRow">> </p>
+</div>
+

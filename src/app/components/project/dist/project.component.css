@@ -1,0 +1,98 @@
+.projectContainer {
+  height: 25vw;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  background-color: white;
+  border-radius: 7px 7px 7px 7px;
+  box-shadow: 0px 5px 20px -5px #2b2b2b;
+  border-radius: 7px 7px 7px px;
+  display: flex;
+  flex-direction: row;
+}
+
+.projectImg {
+  height: 100%;
+  width: 45%;
+  border-radius: 7px 7px 7px 7px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.projectText {
+  margin-top: -1%;
+  height: 100%;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectTitle {
+  font-weight: bold;
+}
+
+.projectDescription {
+  margin-top: -3%;
+  text-align: left;
+  height: auto;
+  font-size: 80%;
+  padding-right: 5%;
+}
+
+.projectTags {
+  display: flex;
+  flex-direction: row;
+}
+
+.skill {
+  font-size: 60%;
+  margin-right: 3%;
+  border-color: #9fffff;
+  border-width: 2px;
+  border-style: solid;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.projectLinks {
+  display: flex;
+  flex-direction: row;
+  margin: auto auto 1% 1%;
+}
+
+.projectLink {
+  font-size: 80%;
+  margin-right: 20px;
+  background-color: #166ca6;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #fbfbfb;
+  font-weight: bold;
+  padding: 3px 10px 5px 10px;
+  text-decoration: none;
+}
+
+.projectLink:hover {
+  background-color: #209cee;
+}
+
+.projectLink:active {
+  position: relative;
+  top: 1px;
+}
+
+@media (orientation: portrait) {
+  /* phones, 99.9% of the time */
+  .projectDescription {
+    font-size: 0.2rem;
+  }
+
+  .skill {
+    display: none;
+  }
+
+  .projectLink {
+    font-size: 0.5rem;
+  }
+}
